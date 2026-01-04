@@ -127,3 +127,15 @@ footer {
     padding: 15px;
     font-size: 14px;
 }
+.credentials {
+  display: flex;             /* use flexbox for easy alignment */
+  flex-direction: column;    /* stack elements vertically */
+  align-items: center;       /* center horizontally */
+  justify-content: center;   /* optional: center vertically inside the section */
+  text-align: center;        /* center text inside elements */
+  max-width: 700px;          /* optional: limit width for readability */
+  margin: 40px auto;         /* center the container horizontally and add spacing top/bottom */
+  gap: 10px;                 /* space between paragraphs/headings */
+  padding: 20px;             /* optional: breathing room inside the section */
+}
+
